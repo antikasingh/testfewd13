@@ -1,0 +1,51 @@
+*{
+	box-sizing:border-box;
+}
+
+body{
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin:0;
+}
+header {
+	height: 10%;
+	width: 100%;
+	background-color: black;
+
+}
+h1 {
+	color: yellow;
+	padding:15px;
+}
+nav ul li {
+	display: inline-block;
+	color: white;
+}
+
+nav ul li a {
+	color: white;
+	text-decoration: none;
+}
+
+nav ul li:first-child{
+	margin-left: 60%;
+}
+
+
+.subheader_container {
+	height: 40px;
+	width: 100%;
+	background-color: #777;
+	margin-top: -1.3%;
+}
+
+.subheader{
+	text-align: center;
+}
+
+
+.subheader span  {
+	border-bottom: 1px solid yellow;
+}
+	
